@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+#app:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  /* background: rgba(0,0,0,0.4); */
+  /* background: rgba(255,255,255,0.4); */
+  /* background-image: radial-gradient(black 16%, transparent 13%); */
+  background-size: 3px 3px;
+}
+
+a {
+  color: yellow;
+  font-size: 20px;
+  transform: all 3s ease-in;
+  text-decoration: underline;
+}
+
+ul#menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+ul#menu li > a {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+ul#menu li > a:hover {
+  /* width: 140px; */
+}
+
+ul#menu li > a:before {
+  content: '[';
+  position: relative;
+  left: 0;
+}
+
+ul#menu li > a:after {
+  content: ']';
+  position: relative;
+  right: 0;
+  /* margin-left: 10px; */
+}
+
+ul#menu li > :not(.active):hover {
+  color: yellow;
+  width: 150px;
+}
+
+ul#menu li > a.active {
+  color: yellowgreen;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 42px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 20px;
+}
