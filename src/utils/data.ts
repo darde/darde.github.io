@@ -247,3 +247,62 @@ export const yearsOfExperience = [
     color: "#049EF4",
   },
 ]
+
+export const roles = [
+  {
+    title: "Software Engineer",
+    company: {
+      name: "Still Life through Sierra Studios",
+      href: "https://www.sierra.studio/",
+    },
+  },
+  {
+    title: "Principal Engineer and Architect",
+    company: {
+      name: "Pipefy",
+      href: "https://www.pipefy.com/pt-br/",
+    },
+  },
+  {
+    title: "Senior Software Engineer",
+    company: {
+      name: "X-Team",
+      href: "https://x-team.com/",
+    },
+  },
+  {
+    title: "Senior Software Engineer and Frontend Architect",
+    company: {
+      name: "Resultados Digitais [RD Station]",
+      href: "https://www.rdstation.com/",
+    },
+  },
+  {
+    title: "Frontend Specialist",
+    company: {
+      name: "Daitan Group",
+      href: "https://www.linkedin.com/showcase/encorabrasil/",
+    },
+  },
+  {
+    title: "Senior JavaScript Developer",
+    company: {
+      name: "SAP Latin Labs",
+      href: "https://www.sap.com/brazil/about.html",
+    },
+  },
+  {
+    title: "Technical Lead",
+    company: {
+      name: "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul",
+      href: "https://pucrs.br",
+    },
+  },
+  {
+    title: "Frontend Developer",
+    company: {
+      name: "Grupo RBS",
+      href: "https://www.gruporbs.com.br/",
+    },
+  },
+]

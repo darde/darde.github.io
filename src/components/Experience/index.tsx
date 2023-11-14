@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
-import { yearsOfExperience } from "../../utils/data"
+import { roles, yearsOfExperience } from "../../utils/data"
+import Role from "./Role"
 import StackWidget from "./StackWidget"
 
 type StacksProps = {
@@ -13,18 +14,6 @@ export default function Experience() {
   useEffect(() => {
     setStacks(yearsOfExperience.slice())
   }, [])
-
-  const styles = {
-    roles: {
-      title: {
-        fontSize: "24px",
-      },
-      company: {
-        fontSize: "20px",
-        display: "inline-flex",
-      },
-    },
-  }
 
   return (
     <article>
@@ -44,18 +33,9 @@ export default function Experience() {
         <article>
           <h1>Roles</h1>
           <p>During my carreer I worked with different roles performing different tasks.</p>
-          <div>
-            <h2 style={styles.roles.title}>Senior Software Engineer</h2>
-            <a href="https://www.sierra.studio/" target="blank">
-              <h3 style={styles.roles.company}>Sierra Studio/Still Life Inc.</h3>
-            </a>
-          </div>
-          <div>
-            <h2 style={styles.roles.title}>Principal Engineer</h2>
-            <a href="https://www.pipefy.com/pt-br/" target="blank">
-              <h3 style={styles.roles.company}>Pipefy</h3>
-            </a>
-          </div>
+          {roles.map((role) => (
+            <Role title={role.title} company={role.company} />
+          ))}
         </article>
       </div>
     </article>
