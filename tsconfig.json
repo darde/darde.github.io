@@ -22,9 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "src/**/*.tsx",
-    "src/**/*.ts"
-, "src/main.jsx", "src/components/Card.jsx", "src/components/Portfolio.jsx"  ],
+  "include": ["src/**/*.tsx", "src/**/*.ts"],
   "exclude": ["node_modules"]
 }

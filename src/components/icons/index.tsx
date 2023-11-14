@@ -1,0 +1,8 @@
+export { CloseIcon } from "./CloseIcon"
+export { GithubIcon } from "./GithubIcon"
+export { GmailIcon } from "./GmailIcon"
+export { LinkedInIcon } from "./LinkedInIcon"
+export { MediumIcon } from "./MediumIcon"
+export { MenuIcon } from "./MenuIcon"
+export { SpinnerIcon } from "./SpinnerIcon"
+export { StackOverflowIcon } from "./StackOverflowIcon"
