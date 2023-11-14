@@ -8,8 +8,7 @@ type StackWidgetProps = {
 
 const StackWidget = ({ label, years, color = "green" }: StackWidgetProps) => {
   const barRef = useRef<HTMLDivElement>(null)
-  // const years = new Date().getFullYear() - since
-  const maxYears = 20
+  const maxYears = 15
   const maxWidth = 300
   const initialBarWidth = 1
   const barWidth = (years * maxWidth) / maxYears
@@ -50,7 +49,6 @@ const StackWidget = ({ label, years, color = "green" }: StackWidgetProps) => {
             style={{ width: `${initialBarWidth}px`, backgroundColor: color }}
           />
         </div>
-        {/* <div className="">{years} years</div> */}
       </div>
     </article>
   )

@@ -254,6 +254,10 @@ export const roles = [
     company: {
       name: "Still Life through Sierra Studios",
       href: "https://www.sierra.studio/",
+      year: {
+        from: "Decenber 2022",
+        to: "Current",
+      },
     },
   },
   {
@@ -261,6 +265,10 @@ export const roles = [
     company: {
       name: "Pipefy",
       href: "https://www.pipefy.com/pt-br/",
+      year: {
+        from: "October 2021",
+        to: "Decenber 2022",
+      },
     },
   },
   {
@@ -268,6 +276,10 @@ export const roles = [
     company: {
       name: "X-Team",
       href: "https://x-team.com/",
+      year: {
+        from: "December 2020",
+        to: "October 2021",
+      },
     },
   },
   {
@@ -275,6 +287,10 @@ export const roles = [
     company: {
       name: "Resultados Digitais [RD Station]",
       href: "https://www.rdstation.com/",
+      year: {
+        from: "June 2017",
+        to: "December 2020",
+      },
     },
   },
   {
@@ -282,6 +298,10 @@ export const roles = [
     company: {
       name: "Daitan Group",
       href: "https://www.linkedin.com/showcase/encorabrasil/",
+      year: {
+        from: "May 2016",
+        to: "june 2017",
+      },
     },
   },
   {
@@ -289,6 +309,10 @@ export const roles = [
     company: {
       name: "SAP Latin Labs",
       href: "https://www.sap.com/brazil/about.html",
+      year: {
+        from: "September 2015",
+        to: "May 2016",
+      },
     },
   },
   {
@@ -296,13 +320,10 @@ export const roles = [
     company: {
       name: "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul",
       href: "https://pucrs.br",
-    },
-  },
-  {
-    title: "Frontend Developer",
-    company: {
-      name: "Grupo RBS",
-      href: "https://www.gruporbs.com.br/",
+      year: {
+        from: "August 2007",
+        to: "January 2015",
+      },
     },
   },
 ]
