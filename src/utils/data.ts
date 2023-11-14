@@ -33,6 +33,7 @@ import nestleThumb from "../assets/portfolio/thumbs/nestle-thumb.png"
 import ospaThumb from "../assets/portfolio/thumbs/ospa-thumb.png"
 import sideMenuThumb from "../assets/portfolio/thumbs/react-side-menu-thumb.png"
 import solarSystemThumb from "../assets/portfolio/thumbs/solar-system-thumb.png"
+import surpresaThumb from "../assets/portfolio/thumbs/surpresa-thumb.png"
 import svelteflixThumb from "../assets/portfolio/thumbs/svelteflix-thumb.png"
 import eclipseThumb from "../assets/portfolio/thumbs/threejs-eclipse-thumb.png"
 
@@ -133,6 +134,14 @@ export const portfolioUrls = [
     stack: "Unity, AR, Vuforia",
     description: "Augmented Reality app using Unity and Vuforia. Nestlé chocolate box experiment.",
     videoUrl: "https://www.youtube.com/embed/ZGAzvxZ7duk?si=I7AkstMZQr8JPMZT",
+  },
+  {
+    id: 11,
+    title: "AR Nestlé | Chocolate Surpresa",
+    imageSource: surpresaThumb,
+    stack: "Unity, AR, Vuforia",
+    description: "Augmented Reality app using Unity and Vuforia. Nestlé chocolate surpresa.",
+    videoUrl: "https://www.youtube.com/embed/gyplmlekyOI?si=Y64sOqfi-ziOsm4U",
   },
   {
     id: 7,
