@@ -1,4 +1,9 @@
+import { onCLS, onFID, onLCP } from "web-vitals"
+
 export default function About() {
+  onCLS(console.log)
+  onFID(console.log)
+  onLCP(console.log)
   return (
     <div>
       <h1>About me</h1>

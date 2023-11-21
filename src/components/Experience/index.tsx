@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { onCLS, onFID, onLCP } from "web-vitals"
 import { roles, yearsOfExperience } from "../../utils/data"
 import Role from "./Role"
 import StackWidget from "./StackWidget"
@@ -15,6 +16,9 @@ export default function Experience() {
     setStacks(yearsOfExperience.slice())
   }, [])
 
+  onCLS(console.log)
+  onFID(console.log)
+  onLCP(console.log)
   return (
     <article>
       <h1>Experience</h1>
@@ -34,7 +38,7 @@ export default function Experience() {
           <h1 className="text-[36px] mt-[30px] md:mt-0">Roles</h1>
           <p>During my carreer I worked with different roles performing different tasks.</p>
           {roles.map((role) => (
-            <Role title={role.title} company={role.company} />
+            <Role key={role.company.name} title={role.title} company={role.company} />
           ))}
         </article>
       </div>

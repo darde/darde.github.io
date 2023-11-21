@@ -1,4 +1,5 @@
 import { useContext } from "react"
+import { onCLS, onFID, onLCP } from "web-vitals"
 import { portfolioUrls } from "../utils/data"
 import Card from "./Card"
 import { PortfolioContext } from "./Contexts/PortfolioContext"
@@ -19,6 +20,9 @@ export default function Portfolio() {
     }
   }
 
+  onCLS(console.log)
+  onFID(console.log)
+  onLCP(console.log)
   return (
     <div>
       <h1>Portfolio</h1>
