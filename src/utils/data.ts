@@ -1,6 +1,7 @@
 export const mediumUrls = [
   {
-    title: "Entendendo o princípio Open Closed atráves do design pattern Strategy (Portuguese)",
+    title:
+      "Entendendo o princípio Open Closed atráves do design pattern Strategy (Portuguese)",
     url: "https://medium.com/@pablodarde/entendendo-o-princ%C3%ADpio-open-closed-atr%C3%A1ves-do-design-pattern-strategy-b0583f0ff7bd",
   },
   {
@@ -23,19 +24,19 @@ export const mediumUrls = [
     title: "Testes Unitários com TDD (Test Driven Development) (Portuguese)",
     url: "https://medium.com/@pablodarde/testes-unit%C3%A1rios-com-tdd-test-driven-development-657f3dadad06",
   },
-]
+];
 
-import dynamicFormThumb from "../assets/portfolio/thumbs/dynamic-form-thumb.png"
-import itchioGameThumb from "../assets/portfolio/thumbs/itchio-game-thumb.png"
-import nauticaAmstelThumb from "../assets/portfolio/thumbs/nautica-amstel-thumb.png"
-import nauticaThumb from "../assets/portfolio/thumbs/nautica-thumb.png"
-import nestleThumb from "../assets/portfolio/thumbs/nestle-thumb.png"
-import ospaThumb from "../assets/portfolio/thumbs/ospa-thumb.png"
-import sideMenuThumb from "../assets/portfolio/thumbs/react-side-menu-thumb.png"
-import solarSystemThumb from "../assets/portfolio/thumbs/solar-system-thumb.png"
-import surpresaThumb from "../assets/portfolio/thumbs/surpresa-thumb.png"
-import svelteflixThumb from "../assets/portfolio/thumbs/svelteflix-thumb.png"
-import eclipseThumb from "../assets/portfolio/thumbs/threejs-eclipse-thumb.png"
+import dynamicFormThumb from "../assets/portfolio/thumbs/dynamic-form-thumb.png";
+import itchioGameThumb from "../assets/portfolio/thumbs/itchio-game-thumb.png";
+import nauticaAmstelThumb from "../assets/portfolio/thumbs/nautica-amstel-thumb.png";
+import nauticaThumb from "../assets/portfolio/thumbs/nautica-thumb.png";
+import nestleThumb from "../assets/portfolio/thumbs/nestle-thumb.png";
+import ospaThumb from "../assets/portfolio/thumbs/ospa-thumb.png";
+import sideMenuThumb from "../assets/portfolio/thumbs/react-side-menu-thumb.png";
+import solarSystemThumb from "../assets/portfolio/thumbs/solar-system-thumb.png";
+import surpresaThumb from "../assets/portfolio/thumbs/surpresa-thumb.png";
+import svelteflixThumb from "../assets/portfolio/thumbs/svelteflix-thumb.png";
+import eclipseThumb from "../assets/portfolio/thumbs/threejs-eclipse-thumb.png";
 
 export const portfolioUrls = [
   {
@@ -82,7 +83,8 @@ export const portfolioUrls = [
     title: "AR Náutica/Amstel",
     imageSource: nauticaAmstelThumb,
     stack: "Unity, AR, Vuforia",
-    description: "Augmented Reality app using Unity and Vuforia. São Paulo, Nautica Summit.",
+    description:
+      "Augmented Reality app using Unity and Vuforia. São Paulo, Nautica Summit.",
     credits: [
       {
         author: "Cláudio Ramirez",
@@ -107,7 +109,8 @@ export const portfolioUrls = [
     title: "AR Náutica Summit",
     imageSource: nauticaThumb,
     stack: "Unity, AR, Vuforia",
-    description: "Augmented Reality app using Unity and Vuforia. São Paulo, Nautica Summit.",
+    description:
+      "Augmented Reality app using Unity and Vuforia. São Paulo, Nautica Summit.",
     credits: [
       {
         author: "Cláudio Ramirez",
@@ -132,7 +135,8 @@ export const portfolioUrls = [
     title: "AR Nestlé Experiment",
     imageSource: nestleThumb,
     stack: "Unity, AR, Vuforia",
-    description: "Augmented Reality app using Unity and Vuforia. Nestlé chocolate box experiment.",
+    description:
+      "Augmented Reality app using Unity and Vuforia. Nestlé chocolate box experiment.",
     videoUrl: "https://www.youtube.com/embed/ZGAzvxZ7duk?si=I7AkstMZQr8JPMZT",
   },
   {
@@ -140,7 +144,8 @@ export const portfolioUrls = [
     title: "AR Nestlé | Chocolate Surpresa",
     imageSource: surpresaThumb,
     stack: "Unity, AR, Vuforia",
-    description: "Augmented Reality app using Unity and Vuforia. Nestlé chocolate surpresa.",
+    description:
+      "Augmented Reality app using Unity and Vuforia. Nestlé chocolate surpresa.",
     videoUrl: "https://www.youtube.com/embed/gyplmlekyOI?si=Y64sOqfi-ziOsm4U",
   },
   {
@@ -148,7 +153,8 @@ export const portfolioUrls = [
     title: "AR OSPA",
     imageSource: ospaThumb,
     stack: "Unity, AR, Vuforia",
-    description: "Augmented Reality app using Unity and Vuforia. Ospa Symphonic Orchestra experiment.",
+    description:
+      "Augmented Reality app using Unity and Vuforia. Ospa Symphonic Orchestra experiment.",
     credits: [
       {
         author: "Cláudio Ramirez",
@@ -181,7 +187,8 @@ export const portfolioUrls = [
     title: "AR Solar System Simulation",
     imageSource: solarSystemThumb,
     stack: "Unity, AR, Vuforia",
-    description: "Augmented Reality app using Unity and Vuforia. Solar System simulation.",
+    description:
+      "Augmented Reality app using Unity and Vuforia. Solar System simulation.",
     videoUrl: "https://www.youtube.com/embed/6TqJ7TQXMuo?si=OuhEEqrnihmurxoJ",
   },
   {
@@ -192,7 +199,7 @@ export const portfolioUrls = [
     description: "Eclipse simulator",
     videoUrl: "https://www.youtube.com/embed/KlAXaxYxyj8?si=3BMR7sKI30ueqkbW",
   },
-]
+];
 
 export const yearsOfExperience = [
   {
@@ -202,27 +209,32 @@ export const yearsOfExperience = [
   },
   {
     label: "TypeScript",
-    years: 5,
+    years: 8,
     color: "darkblue",
   },
   {
     label: "React/Redux",
-    years: 7,
+    years: 8,
     color: "#169ECA",
   },
   {
     label: "React Native/Expo",
-    years: 3,
+    years: 5,
     color: "#5DD4F4",
   },
   {
+    label: "VueJS",
+    years: 1,
+    color: "#42b883",
+  },
+  {
     label: "Unit Testing (Jasmine/Moca/@testing-library)",
-    years: 5,
+    years: 6,
     color: "#FD4444",
   },
   {
     label: "NodeJS",
-    years: 6,
+    years: 7,
     color: "#056D00",
   },
   {
@@ -232,7 +244,7 @@ export const yearsOfExperience = [
   },
   {
     label: "Ruby on Rails/Java/Svelte",
-    years: 1,
+    years: 2,
     color: "#D30002",
   },
   {
@@ -255,9 +267,20 @@ export const yearsOfExperience = [
     years: 1,
     color: "#049EF4",
   },
-]
+];
 
 export const roles = [
+  {
+    title: "Technical Lead",
+    company: {
+      name: "Remedy Product Studio",
+      href: "https://www.remedyproduct.com/",
+      year: {
+        from: "Decenber 2023",
+        to: "Current",
+      },
+    },
+  },
   {
     title: "Software Engineer",
     company: {
@@ -265,7 +288,7 @@ export const roles = [
       href: "https://www.sierra.studio/",
       year: {
         from: "Decenber 2022",
-        to: "Current",
+        to: "December 2023",
       },
     },
   },
@@ -319,7 +342,7 @@ export const roles = [
       name: "SAP Latin Labs",
       href: "https://www.sap.com/brazil/about.html",
       year: {
-        from: "September 2015",
+        from: "May 2015",
         to: "May 2016",
       },
     },
@@ -335,4 +358,4 @@ export const roles = [
       },
     },
   },
-]
+];
