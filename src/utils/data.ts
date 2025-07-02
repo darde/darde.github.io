@@ -37,6 +37,8 @@ import solarSystemThumb from "../assets/portfolio/thumbs/solar-system-thumb.png"
 import surpresaThumb from "../assets/portfolio/thumbs/surpresa-thumb.png";
 import svelteflixThumb from "../assets/portfolio/thumbs/svelteflix-thumb.png";
 import eclipseThumb from "../assets/portfolio/thumbs/threejs-eclipse-thumb.png";
+import rdLandingPageThumb from "../assets/portfolio/thumbs/lp-editor-thumb.png";
+import ashWellnessThumb from "../assets/portfolio/thumbs/ash-thumb.png";
 
 export const portfolioUrls = [
   {
@@ -50,33 +52,30 @@ export const portfolioUrls = [
     liveAt: "https://svelteflix.vercel.app/",
   },
   {
+    id: 11,
+    title: "Drag and Drop Landing Page Editor",
+    imageSource: rdLandingPageThumb,
+    stack: "React, Redux, NodeJS, Ruby on Rails",
+    description:
+      "This is a drag-and-drop landing page, email marketing, and popup editor built on RD Station, the largest Digital Marketing Conpany in Brazil.",
+    videoUrl: "https://www.youtube.com/embed/WgCPLCgHymQ?si=hV5DxOXhBaMWU5QN",
+  },
+  {
+    id: 12,
+    title: "Ash Wellness",
+    imageSource: ashWellnessThumb,
+    stack: "VueJS, Tailwindcss, Python, Fast API",
+    description:
+      "Customizable health testing platform. This platform allows users to place health exams online and keep track of their results.",
+    videoUrl: ashWellnessThumb,
+  },
+  {
     id: 2,
     title: "Dynamic Forms",
     imageSource: dynamicFormThumb,
     stack: "React, Tailwindcss",
     description: "Creating dynamic form fields with React",
     videoUrl: "https://www.youtube.com/embed/FGhXs1LRuyE?si=DH8fj3O4j7mx5BUO",
-  },
-  {
-    id: 3,
-    title: "Unity 2D Platform Game",
-    imageSource: itchioGameThumb,
-    stack: "Unity, C#",
-    description: "Unity 2D platform game",
-    videoUrl: "https://www.youtube.com/embed/XRZaZ88wLvE?si=_be-0B5qEwjWiX6s",
-    credits: [
-      {
-        author: "Pedro Cabral",
-        contact: "petergun@gmail.com",
-        work: "Design, sound engineering, and screenplay",
-      },
-      {
-        author: "Pablo Darde",
-        contact: "https://www.linkedin.com/in/pablodarde/",
-        work: "Unity development, screenplay, and iOS/Android build",
-      },
-    ],
-    liveAt: "https://voduweb.itch.io/pegalulu",
   },
   {
     id: 4,
@@ -209,17 +208,17 @@ export const yearsOfExperience = [
   },
   {
     label: "TypeScript",
-    years: 8,
+    years: 9,
     color: "darkblue",
   },
   {
     label: "React/Redux",
-    years: 8,
+    years: 9,
     color: "#169ECA",
   },
   {
     label: "React Native/Expo",
-    years: 5,
+    years: 4,
     color: "#5DD4F4",
   },
   {
@@ -234,12 +233,12 @@ export const yearsOfExperience = [
   },
   {
     label: "NodeJS",
-    years: 7,
+    years: 8,
     color: "#056D00",
   },
   {
     label: "Clean Architecture/SOLID Principles",
-    years: 6,
+    years: 8,
     color: "#fff",
   },
   {
@@ -276,7 +275,7 @@ export const roles = [
       name: "Remedy Product Studio",
       href: "https://www.remedyproduct.com/",
       year: {
-        from: "Decenber 2023",
+        from: "June 2023",
         to: "Current",
       },
     },
@@ -287,8 +286,8 @@ export const roles = [
       name: "Still Life through Sierra Studios",
       href: "https://www.sierra.studio/",
       year: {
-        from: "Decenber 2022",
-        to: "December 2023",
+        from: "October 2022",
+        to: "June 2023",
       },
     },
   },
