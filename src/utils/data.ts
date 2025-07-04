@@ -203,7 +203,7 @@ export const portfolioUrls = [
 export const yearsOfExperience = [
   {
     label: "JavaScript",
-    years: 15,
+    years: 13,
     color: "green",
   },
   {
@@ -233,7 +233,7 @@ export const yearsOfExperience = [
   },
   {
     label: "NodeJS",
-    years: 8,
+    years: 6,
     color: "#056D00",
   },
   {
@@ -275,19 +275,8 @@ export const roles = [
       name: "Remedy Product Studio",
       href: "https://www.remedyproduct.com/",
       year: {
-        from: "June 2023",
-        to: "Current",
-      },
-    },
-  },
-  {
-    title: "Software Engineer",
-    company: {
-      name: "Still Life through Sierra Studios",
-      href: "https://www.sierra.studio/",
-      year: {
-        from: "October 2022",
-        to: "June 2023",
+        from: "May 2023",
+        to: "Present",
       },
     },
   },
@@ -297,8 +286,8 @@ export const roles = [
       name: "Pipefy",
       href: "https://www.pipefy.com/pt-br/",
       year: {
-        from: "October 2021",
-        to: "Decenber 2022",
+        from: "December 2021",
+        to: "May 2023",
       },
     },
   },
@@ -309,7 +298,7 @@ export const roles = [
       href: "https://x-team.com/",
       year: {
         from: "December 2020",
-        to: "October 2021",
+        to: "December 2021",
       },
     },
   },
@@ -341,7 +330,7 @@ export const roles = [
       name: "SAP Latin Labs",
       href: "https://www.sap.com/brazil/about.html",
       year: {
-        from: "May 2015",
+        from: "April 2015",
         to: "May 2016",
       },
     },

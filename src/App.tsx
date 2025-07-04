@@ -1,17 +1,18 @@
-import { useContext } from "react"
-import { Outlet } from "react-router-dom"
-import CardDetail from "./components/CardDetail"
-import { PortfolioContext } from "./components/Contexts/PortfolioContext"
-import Topbar from "./components/Topbar"
-import Wrapper from "./components/Wrapper"
-import "./styles/global.css"
-import { PortfolioContextProps } from "./types"
+import { useContext } from "react";
+import { Outlet } from "react-router-dom";
+import CardDetail from "./components/CardDetail";
+import { PortfolioContext } from "./components/Contexts/PortfolioContext";
+import Topbar from "./components/Topbar";
+import Wrapper from "./components/Wrapper";
+import "./styles/global.css";
+import { PortfolioContextProps } from "./types";
 
 function App() {
-  const { portfolioDetail, setPortfolioDetail } = useContext<PortfolioContextProps>(PortfolioContext)
+  const { portfolioDetail, setPortfolioDetail } =
+    useContext<PortfolioContextProps>(PortfolioContext);
 
   function handleOnClose() {
-    setPortfolioDetail(null)
+    setPortfolioDetail(null);
   }
 
   return (
@@ -35,7 +36,7 @@ function App() {
         </Wrapper>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
